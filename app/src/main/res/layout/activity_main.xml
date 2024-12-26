@@ -1,0 +1,196 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:background="@drawable/dialog_background"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/player_name_prompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Player Names"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/player1Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Player 1 Name"
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:textColor="#000"/>
+
+        <EditText
+            android:id="@+id/player2Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Player 2 Name"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:padding="12dp"
+            android:background="@drawable/edittext_background"
+            android:textColor="#000"/>
+
+        <Button
+            android:id="@+id/startGameButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Game"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:gravity="center"
+        android:background="#FFFB">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tic Tac Toe"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="16dp"/>
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rowCount="3"
+            android:columnCount="3"
+            android:layout_gravity="center">
+
+            <!-- Updated button design -->
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_background"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <!-- Repeat for buttons 2 to 9 -->
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_background"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <!-- Continue for all other buttons -->
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_background"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_background"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_background"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_background"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_background"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_background"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="4dp"
+                android:background="@drawable/button_background"
+                android:text=""
+                android:textSize="20sp"/>
+        </GridLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/resetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reset Game"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#FF5722"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:id="@+id/newGameButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Game"
+                android:backgroundTint="#4CAF50"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
