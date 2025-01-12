@@ -1,33 +1,30 @@
-  Tic Tac Toe Game 🎮
+#  Tic Tac Toe Game 🎮
 
   
-A simple and interactive Tic Tac Toe game for Android, built with Java. The game provides an engaging user experience with player name inputs, attractive animations, and a professional splash screen.
+**A simple and interactive Tic Tac Toe game for Android, built with Java. The game provides an engaging user experience with player name inputs, attractive animations, and a professional splash screen.**
 
-  Features ✨
+##  Features ✨
 
-  
-Two-player mode with customizable player names.
+**Two-player mode with customizable player names.
 Responsive and intuitive game grid.
 Splash screen with animated logo.
 End game options to start a new game or exit.
-Modern UI with Material Design components.
+Modern UI with Material Design components.**
 
-  Prerequisites 🛠️
-
-  
-Android Studio (latest version recommended).
+##  Prerequisites 🛠️
+ 
+**Android Studio (latest version recommended).
 Java Development Kit (JDK).
 How to Play 🕹️
 Launch the app.
 Enter player names.
 Take turns to place your marks (X or O) on the grid.
-The first to align three marks in a row, column, or diagonal wins!
+The first to align three marks in a row, column, or diagonal wins!**
 
-  Future Enhancements 🌟
-
+##  Future Enhancements 🌟
   
-Add single-player mode with AI.
-Implement score tracking.
+**Add single-player mode with AI.
+Implement score tracking.**
 Support for different themes.
 
   License 📄
